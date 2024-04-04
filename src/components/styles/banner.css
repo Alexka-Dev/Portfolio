@@ -1,0 +1,17 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem 5rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+
+.banner p {
+  margin-bottom: 0.5rem;
+}
+
+.banner h3 {
+  margin-top: 0;
+}

@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  /*background: linear-gradient(45deg, #050810, #181521, #171228);
+  background-repeat: no-repeat;
+  background-size: 400% 100%;*/
+  backdrop-filter: brightness(40%);
+  margin: 0;
+
+  animation: slide 55s infinite;
+
+  background-image: url("./components/styles/Images/back.jpg");
+}
+
+@keyframes slide {
+  50% {
+    background-position: 100%;
+  }
+}
